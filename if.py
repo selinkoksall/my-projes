@@ -1,5 +1,5 @@
 #karşılaştırma oparatörleri
-# < küçüktür, > büyüktür, >= büyük eşittir, <=küçük eşittir, == aşittir, != aşit değildir .
+# < küçüktür, > büyüktür, >= büyük eşittir, <=küçük eşittir, == eşittir, != eşit değildir .
 
 cinsiyet=input("bir harf giriniz:")
 
