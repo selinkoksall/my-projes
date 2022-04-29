@@ -1,10 +1,11 @@
-ortalama=int(input("bir not giriniz:"))
+ort = int(input("ortalamanızı giriniz"))
 
-if takdir>= 85:
-     print("tebrikler takdir alabiliyorsun")
+if ort < 85:
+  print("tebrikler takdir alabiliyorsunuz.")
 
-elif teşekkür>=70:
-     print("tebrikler teşekkür alabiliyorsun")
+elif ort < 70:
+   print("tebrikler teşekkür alabiliyorsunuz.")
 
 else:
-   print("hiçbir belge alamıyorsun")
+   print("maalesef belge alamıyorsunuz.")
+  
