@@ -9,4 +9,4 @@ adlar.sort()
 print(sayilar)
 
 sayilar.sort()
-sayilar.reverse=()
+sayilar.reverse()
