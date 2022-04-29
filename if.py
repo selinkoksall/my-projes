@@ -1,6 +1,3 @@
-#karşılaştırma oparatörleri
-# < küçüktür, > büyüktür, >= büyük eşittir, <=küçük eşittir, == eşittir, != eşit değildir .
-
 cinsiyet=input("bir harf giriniz:")
 
 if cinsiyet== "e" or cinsiyet=="E":
@@ -8,10 +5,11 @@ if cinsiyet== "e" or cinsiyet=="E":
      print("if içerisinden selamlar")
      print("şuanda if dışındasın")
 
-elif cinsiyet=="k" or cinsiyet=="K":
+elif cinsiyet== "k" or cinsiyet=="K":
      print("cinsiyet olarak kadın girdiniz")
      print("elif içerisinden selamlar")
      print("şuanda elif dışındasın")
+  
 else:
    print("ben sana e yada k gir demedim mi!")
 print("şuanda if dışındasın")
